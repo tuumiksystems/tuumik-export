@@ -1,0 +1,21 @@
+{
+  "name": "tuumik-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "node --env-file=.env src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "dayjs": "^1.11.19",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "pdfmake": "^0.2.21"
+  }
+}
